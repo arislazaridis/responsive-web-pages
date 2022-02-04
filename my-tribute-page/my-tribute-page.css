@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+}
+
+.pageContent {
+  padding: 16px 8px 4px 8px;
+  box-sizing: border-box;
+  height: 100vh;
+  background-color: white;
+}
+
+.mainCard {
+  border-radius: 8px;
+  background-color: #eee;
+}
+
+.card {
+  padding: 4px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.imageCard {
+  border-radius: 50%;
+  width: 100%;
+  max-width: 300px;
+}
+
+.cardDescription {
+  background-color: #ddd;
+}

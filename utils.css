@@ -1,0 +1,37 @@
+.align-center {
+  text-align: center;
+}
+
+.margin-bottom-16 {
+  margin-bottom: 16px;
+}
+
+.padding-8 {
+  padding: 8px;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.display-block {
+  display: block;
+}
+
+.padding-16 {
+  padding-right: 16px;
+}
+
+.backround-color {
+  background-color: #ececec;
+}
+
+.text-style-white {
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.width-100 {
+  width: 100%;
+}

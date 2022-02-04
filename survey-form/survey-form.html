@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Survey-Form</title>
+    <link rel="stylesheet" href="./survey-form.css" />
+    <link rel="stylesheet" href="./../utils.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <form class="form">
+        <h2 class="formTitle">
+          Application For Permission To Date My Daughter
+        </h2>
+        <p>
+          <b>Note:</b> Form is to be completed at least 21 days prior to date
+        </p>
+
+        <!-- Personal Details -->
+        <fieldset class="fieldsetContent">
+          <legend>Personal Details</legend>
+          <div >
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter name here" />
+          </div>
+          <div>
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" placeholder="Enter address here" />
+          </div>
+          <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter email here" />
+          </div>
+          <div>
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter 10 digits number" />
+          </div>
+          <div>
+            <label for="iq">IQ:</label>
+            <input type="number"  id="iq" name="id" placeholder="Enter IQ here"
+             />
+          </div>
+
+
+          <div>
+              <label for="gender">Gender</label>
+              <div>
+                <input type="radio" name="gender" value="male" checked> Male </input>
+                <br>
+                <input type="radio" name="gender" value="female" > Female </input>
+                <br>
+                <input type="radio" name="gender" value="other" > Other </input>
+              </div>
+          </div>
+          <div>
+            <label for="date">Date of Proposed Outing:</label>
+            <input type="date" name="date">
+          </div>
+        </fieldset>
+          <fieldset class="fieldsetApply">
+              <label for="apply">Check All That Apply</label>
+              <br>
+              <br>
+              <input type="checkbox" name="tatoo" value="tatoo">I have tattoos and/or piercings</input> <br>
+              <input type="checkbox" >I am more than 2 years older than my daughter</input><br>
+              <input type="checkbox" > I own a panel van or V8 ute</input><br>
+              <input type="checkbox" > I work full-time</input><br>
+          </fieldset>
+
+          <fieldset class="fieldsetEducation">
+            <div>
+              <label id="politics">Political Persuasion:</label>
+              <select id="dropdown1">
+                <option value="left">Left Wing</option>
+                <option value="right">Right Wing</option>
+              </select>
+            </div>
+            <div>
+              <label id="dropdown2Label">Education Level Completed</label>
+              <select id="dropdown2">
+                <option>University</option>
+              </select>
+            </div>
+          </fieldset>
+
+          <fieldset class="fieldsetEssay">
+              <legend>Essay Section</legend>
+              <p>In 50 words or more explain why you want to date my daughter</p>
+              <textarea class="width-100" id="msg" name="msg" rows="4" placeholder="Enter Text Here"></textarea>
+              <div class="essayRef">
+                <label for="msg2"> Please upload contact details for 2 references</label>
+                <br>
+                <textarea class="width-100" id="msg2" name="msg2" rows="4" placeholder="Enter Text Here"></textarea>
+              </div>
+              <p>Upload Police Clearance Certificate, Bank Statement and Medical Certifiates here: <button class="attachBtn">Attach Files</button> </p>
+          </fieldset>
+
+          <div class="submit">
+              <button type="submit" id="submit">Send Your Application</button>
+          </div>
+
+      </form>
+    </div>
+  </body>
+</html>

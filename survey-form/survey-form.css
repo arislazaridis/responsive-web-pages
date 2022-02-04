@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+}
+
+.container {
+  border: 3px;
+  padding: 16px;
+  margin: 16px;
+  background-color: lightgoldenrodyellow;
+}
+
+.form {
+  border: 1px solid rgb(216, 216, 216);
+  border-radius: 10px;
+  background-color: white;
+  padding: 8px 24px 8px 24px;
+  width: 50%;
+  margin: auto;
+}
+
+.formTitle {
+  text-align: center;
+}
+
+.fieldsetContent {
+  border: 1px solid rgb(216, 216, 216);
+  padding: 8px 16px 4px 16px;
+  margin-bottom: 8px;
+}
+
+.fieldsetContent input {
+  margin-bottom: 8px;
+}
+
+.fieldsetEssay {
+  border: 1px solid rgb(216, 216, 216);
+  margin-top: 8px;
+}
+
+.fieldsetApply {
+  border: 1px solid rgb(216, 216, 216);
+  padding: 4px 16px 24px 16px;
+}
+
+.fieldsetEducation {
+  padding: 8px 16px 4px 16px;
+  margin: 8px 0;
+  border: 1px solid rgb(216, 216, 216);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px
+}
+
+.essayRef {
+  margin-top: 16px;
+}
+
+.attachBtn {
+  background-color: red;
+  color: white;
+  border: none;
+  font-size: 20px;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+}
+
+#submit {
+  margin: 16px 0 16px 0;
+  color: white;
+  background-color: red;
+  border: none;
+  font-size: 20px;
+}
