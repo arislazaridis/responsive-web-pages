@@ -43,52 +43,27 @@ header button {
 }
 
 .section2 {
-  background-color: #333;
   width: 100%;
+  background-color: #333;
 }
 
 .section2-card {
   width: 50%;
   margin: auto;
   display: flex;
-  align-items: center;
   justify-content: center;
   gap: 24px;
   padding: 32px 0px;
 }
 
-.box1 {
+.box {
   border: 1px solid;
   background-color: white;
   text-align: center;
   min-width: 300px;
 }
 
-.box2 {
-  border: 1px solid;
-  background-color: white;
-  text-align: center;
-  min-width: 300px;
-}
-
-.box3 {
-  border: 1px solid;
-  background-color: white;
-  text-align: center;
-  min-width: 300px;
-}
-
-.box1 img {
-  width: 100%;
-  height: auto;
-}
-
-.box2 img {
-  width: 100%;
-  height: auto;
-}
-
-.box3 img {
+.box img {
   width: 100%;
   height: auto;
 }
@@ -102,7 +77,7 @@ h2 {
   padding: 16px;
 }
 
-.box1 .box2 .box3,
+.box,
 p {
   font-size: 1.1em;
   line-height: 1.5;
@@ -136,25 +111,19 @@ footer {
   display: flex;
 }
 
-.info1,
-.info2 {
+.info {
   background-color: black;
   color: white;
   width: 100%;
   padding: 24px;
+  text-align: center;
 }
 
 @media only screen and (max-width: 980px) {
   .section2-card {
     flex-wrap: wrap;
   }
-  .box1 {
-    width: 100%;
-  }
-  .box2 {
-    width: 100%;
-  }
-  .box3 {
+  .box {
     width: 100%;
   }
 
@@ -171,8 +140,7 @@ footer {
     flex-wrap: wrap;
   }
 
-  .info1,
-  .info2 {
+  .info {
     flex-wrap: wrap;
   }
 }
