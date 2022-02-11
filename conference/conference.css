@@ -28,9 +28,6 @@ header h1 {
   color: white;
 }
 
-.content {
-}
-
 .section1 {
   display: flex;
   flex-direction: column;
@@ -99,4 +96,21 @@ footer {
   color: white;
   list-style-type: none;
   gap: 20px;
+}
+
+@media only screen and (max-width: 980px) {
+  header,
+  .navListFooter,
+  .section1,
+  footer,
+  .section2 {
+    flex-wrap: wrap;
+  }
+
+  header h1,
+  .tagLine,
+  .section1 h2 {
+    width: 100%;
+    text-align: center;
+  }
 }
