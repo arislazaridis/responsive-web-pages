@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+}
+
+.container {
+  background: url(https://jolly-kalam-23776e.netlify.app/mytunes/img/showcase.jpeg)
+    no-repeat center/cover;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+header {
+  background-color: #333;
+  height: 40px;
+}
+
+.navList {
+  margin: 0;
+  padding: 8px 24px 8px 24px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px;
+}
+
+.navList li {
+  list-style: none;
+  color: white;
+}
+
+.navList a {
+  padding: 10px 0;
+  text-align: center;
+  width: 100px;
+  color: white;
+  text-decoration: none;
+}
+
+.navList a:hover {
+  width: 100%;
+  background-color: rgb(116, 116, 116);
+  padding: 10px;
+}
+
+.content {
+  height: 100%;
+}
+
+.section1 {
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.songs-content {
+  text-align: center;
+  color: white;
+  font-size: 24px;
+}
+
+.song-content h1 {
+  margin: 0;
+  font-size: 4rem;
+}
+
+.section2 {
+  padding: 24px;
+  background-color: #333;
+  color: white;
+}
+
+.section2-btn {
+  color: white;
+  background-color: #b90415;
+  padding: 16px;
+  border: none;
+}
+
+.img-ipad {
+  width: 100%;
+}
+
+.section3 {
+  max-width: 1180px;
+  margin: auto;
+  text-align: center;
+  padding: 24px 0px;
+}
+
+.section3 p {
+  display: block;
+  font-size: 1.3rem;
+}
+
+.read-btn {
+  color: white;
+  background-color: #103063;
+  padding: 16px;
+  border: none;
+}
+
+.section4 {
+  background: url(https://jolly-kalam-23776e.netlify.app/mytunes/img/section-bg.jpeg)
+    no-repeat bottom/cover;
+  padding: 10rem 0;
+}
+
+.section-content {
+  color: white;
+  max-width: 1180px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 3rem;
+  font-size: 1.3rem;
+}
+
+.section5 {
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+  gap: 20px;
+}
+
+.gift-card-img img {
+  width: 100%;
+}
+
+.section6 {
+  background-color: #252529;
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.box {
+  min-width: 200px;
+  padding: 50px;
+}
+
+footer h4 {
+  padding: 24px;
+  margin: 0;
+  color: white;
+  text-align: center;
+  background-color: #333;
+}
+
+@media only screen and (max-width: 980px) {
+  .section6 {
+    flex-wrap: wrap;
+  }
+
+  .section5 {
+    flex-wrap: wrap;
+  }
+}
