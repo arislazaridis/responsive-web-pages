@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background-image: url(https://jolly-kalam-23776e.netlify.app/restaurantwebsite/assets/images/topography.svg),
+    linear-gradient(110deg, #f93d66, #6d47d9);
+  background-position: cover;
+}
+
+.container {
+  margin: 50px;
+}
+
+.menu li {
+  list-style: none;
+  text-decoration: none;
+}
+
+.menu a {
+  background-color: yellow;
+  text-decoration: none;
+  border: 1px solid white;
+  text-align: center;
+  color: black;
+  padding: 10px 50px;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}

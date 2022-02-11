@@ -27,11 +27,14 @@ a {
   font-size: large;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1480px) {
   .content {
-    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .project {
-    width: 50%;
+    width: 100%;
+    max-width: 300px;
   }
 }
