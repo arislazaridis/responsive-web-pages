@@ -1,0 +1,156 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+}
+
+.container {
+  height: 100vh;
+  background-image: url(https://www.egeniq.nl/sites/default/files/2020-06/frontend_webdeveloper.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  /* opacity: 0.7; */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.headerContent {
+  height: 100%;
+  color: WHITE;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info {
+  border: none;
+  border-radius: 8px;
+  text-align: center;
+  background-color: rgba(27, 27, 50, 0.8);
+  padding: 24px 64px;
+}
+
+.headerContent h2,
+h4,
+p {
+  margin: 0;
+  font-size: 24px;
+}
+
+.headerContent h4,
+h5 {
+  margin: 0;
+  font-style: italic;
+}
+
+.mainContent {
+  width: 100%;
+  background-color: #111;
+}
+
+.card1 {
+  width: 100%;
+  text-align: center;
+  color: white;
+  padding: 32px 0px;
+  font-style: italic;
+}
+
+.card1 li {
+  list-style: none;
+}
+
+.card1 h1 {
+  margin: 8px;
+}
+.card1 a {
+  text-decoration: none;
+  color: white;
+}
+
+.box {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 300px;
+  border: 1px solid white;
+  background-color: rgba(27, 27, 50);
+  padding: 4px;
+  margin: auto;
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+  padding-top: 16px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.projects {
+  width: 100%;
+  min-height: 600px;
+  background-image: url(https://res.cloudinary.com/practicaldev/image/fetch/s--a67XH0QN--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/i/xndmxrfhliweofif9jty.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.projects h1 {
+  margin: 0;
+}
+
+.jsImg {
+  width: 300px;
+}
+
+.projectJs {
+  margin: 50px;
+  width: 300px;
+  height: 500px;
+  border: 1px solid white;
+  background-color: rgba(27, 27, 50, 0.8);
+}
+
+.projects {
+  width: 100%;
+
+  display: flex;
+}
+
+.jsList {
+  color: white;
+  width: 50%;
+  margin: auto;
+  margin-top: 26px;
+}
+
+.projectCss {
+  margin: 50px;
+  width: 310px;
+  height: 500px;
+  border: 1px solid white;
+  background-color: rgba(27, 27, 50, 0.8);
+}
+
+.cssImg {
+  width: 310px;
+}
+
+.cssList {
+  width: 100%;
+  color: white;
+  width: 50%;
+  margin: auto;
+  margin-top: 26px;
+}
