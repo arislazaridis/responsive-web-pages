@@ -124,7 +124,6 @@ h5 {
 
 .projects {
   width: 100%;
-
   display: flex;
 }
 
@@ -153,4 +152,16 @@ h5 {
   width: 50%;
   margin: auto;
   margin-top: 26px;
+}
+
+@media only screen and (max-width: 980px) {
+  .projects {
+    flex-wrap: wrap;
+  }
+
+  .list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
 }
