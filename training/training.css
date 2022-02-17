@@ -26,12 +26,6 @@ body {
   color: white;
 }
 
-.headerContent img {
-  margin: 30px;
-  border-radius: 10%;
-  box-shadow: 20px 20px 10px rgba(27, 27, 50, 0.8);
-}
-
 .info {
   border: none;
   border-radius: 8px;
@@ -158,6 +152,41 @@ h5 {
   margin-top: 26px;
 }
 
+footer {
+  background-color: #111;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 16px;
+  color: white;
+  padding: 4px;
+}
+
+.icon {
+  border: 1px solid white;
+  background-color: rgba(27, 27, 50, 0.8);
+  padding: 16px;
+}
+
+.contact-head {
+  font-size: 16px;
+  margin-left: 8px;
+}
+
+.icon-left-padding {
+  padding-right: 8px;
+}
+
 @media only screen and (max-width: 980px) {
   .projects {
     flex-wrap: wrap;
@@ -167,5 +196,16 @@ h5 {
     display: flex;
     flex-direction: column;
     width: 100%;
+  }
+
+  .contact-info {
+    flex-direction: column;
+  }
+
+  .contact-head {
+    text-align: center;
+  }
+  .contact {
+    flex-direction: column;
   }
 }
