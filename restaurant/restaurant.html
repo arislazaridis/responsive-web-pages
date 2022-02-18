@@ -3,32 +3,74 @@
   <head>
     <link rel="stylesheet" href="./restaurant.css" />
     <link rel="stylesheet" href="./../utils.css" />
+    <script>
+      function menuBtnClick() {
+        document.querySelector("#nav").classList.toggle("display-flex");
+      }
+    </script>
   </head>
   <body>
-    <div class="container">
-      <header>
-        <nav class="menu">
-          <ul>
-            <li>
-              <a href="/">TACOS</a>
-            </li>
-            <li>
-              <a href="/">BEERS</a>
-            </li>
-            <li>
-              <a href="/">WINES</a>
-            </li>
-            <li>
-              <a href="/">DESSERTS</a>
-            </li>
-            <li>
-              <a href="/">RESERVATIONS</a>
-            </li>
-          </ul>
-        </nav>
-      </header>
-      <div class="content"></div>
-      <footer></footer>
+    <header>
+      <button class="menuBtn" id="menuBtn" onclick="menuBtnClick()">
+        Menu
+      </button>
+      <nav class="nav maxWidth" id="nav">
+        <a>TACOS</a>
+        <a>BEERS</a>
+        <a>WINES</a>
+        <a>DESSERTS</a>
+        <a>RESERVATIONS</a>
+      </nav>
+    </header>
+    <div class="content1 maxWidth">
+      <div class="imgBox">
+        <h1 class="coloredBox">Terry's Taco Joint</h1>
+        <h3 class="coloredBox">Pretty Good Tacos</h3>
+      </div>
+      <div class="boxes">
+        <div class="box">
+          <div>$1.99</div>
+          <div>Tacos</div>
+        </div>
+        <div class="box">
+          <div>$3.99</div>
+          <div>Kombucha</div>
+        </div>
+      </div>
+    </div>
+    <div class="cards maxWidth">
+      <div class="card">
+        <span>🌮</span>
+        <h3>Tacos</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi,
+          assumenda.
+        </p>
+      </div>
+      <div class="card">
+        <span>🍺</span>
+        <h3>Beer</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi,
+          assumenda.
+        </p>
+      </div>
+      <div class="card">
+        <span>🍷</span>
+        <h3>Tacos</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi,
+          assumenda.
+        </p>
+      </div>
+      <div class="card">
+        <span>🍺</span>
+        <h3>Tacos</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi,
+          assumenda.
+        </p>
+      </div>
     </div>
   </body>
 </html>

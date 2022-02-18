@@ -1,31 +1,162 @@
 body {
   margin: 0;
-  height: 100vh;
-  background-image: url(https://jolly-kalam-23776e.netlify.app/restaurantwebsite/assets/images/topography.svg),
+  padding: 16px;
+  background-image: url(./images/topography.svg),
     linear-gradient(110deg, #f93d66, #6d47d9);
-  background-position: cover;
-}
-
-.container {
+  background-size: 340px, auto;
   margin: 50px;
+  background-attachment: fixed;
 }
 
-.menu li {
-  list-style: none;
-  text-decoration: none;
+.maxWidth {
+  max-width: 1500px;
 }
 
-.menu a {
-  background-color: yellow;
-  text-decoration: none;
-  border: 1px solid white;
-  text-align: center;
-  color: black;
-  padding: 10px 50px;
-}
-
-.menu ul {
+.nav {
   display: flex;
+  width: 100%;
+  margin: auto;
+}
+
+.nav a {
+  box-sizing: border-box;
+  background-color: #ffc600;
+  text-decoration: none;
+  color: black;
+  padding: 8px 24px;
+  margin-right: 8px;
+  width: calc((100% - 32px) / 5);
+  text-align: center;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.nav a:last-of-type {
+  margin-right: 0;
+}
+
+.menuBtn {
+  display: none;
+  background-color: #ffc600;
+  padding: 10px 20px;
+  border: none;
+}
+
+.content1 {
+  width: 100%;
+  display: flex;
+  margin: 24px auto 0 auto;
+  /* gap: 20px; */
+  flex-wrap: wrap;
+}
+
+.imgBox {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
+  width: 70%;
+  padding: 200px 40px;
+  box-sizing: border-box;
+  background-image: url(https://jolly-kalam-23776e.netlify.app/restaurantwebsite/images/taco.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.coloredBox {
+  background-color: #ffc600;
+  padding: 12px;
+  width: fit-content;
+}
+
+.boxes {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  box-sizing: border-box;
+  width: 30%;
   gap: 20px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  background-color: #ffc600;
+  height: 50%;
+  font-size: 32px;
+}
+
+.cards {
+  margin: 16px auto 0 auto;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.card {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  text-align: center;
+  padding: 16px 8px;
+}
+
+.card h3 {
+  margin: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+  .menuBtn {
+    display: block;
+  }
+
+  .nav {
+    display: none;
+    box-sizing: border-box;
+    flex-direction: column;
+    z-index: 10;
+    padding: 16px 0px;
+  }
+
+  .nav a {
+    margin-right: 0;
+    width: 100%;
+    margin-bottom: 8px;
+  }
+
+  .nav a:last-of-type {
+    margin-bottom: 0;
+  }
+
+  .imgBox {
+    width: 100%;
+  }
+
+  .boxes {
+    width: 100%;
+    padding-left: 0;
+    margin-top: 20px;
+    flex-direction: row;
+  }
+
+  .box {
+    width: 50%;
+    height: unset;
+    padding: 8px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .boxes {
+    flex-direction: column;
+  }
+
+  .box {
+    width: 100%;
+    box-sizing: border-box;
+  }
 }
